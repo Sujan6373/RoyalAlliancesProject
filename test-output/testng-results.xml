@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="User Credetials Parameterization" duration-ms="155693" started-at="2019-08-27T10:53:13 CDT" finished-at="2019-08-27T10:55:48 CDT">
+    <groups>
+    </groups>
+    <test name="User Credentials" duration-ms="155693" started-at="2019-08-27T10:53:13 CDT" finished-at="2019-08-27T10:55:48 CDT">
+      <class name="com.royalalliances.mailQueue">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:com.royalalliances.mailQueue@1dfe2924]" name="invokeBrowser" is-config="true" duration-ms="13415" started-at="2019-08-27T10:53:13 CDT" finished-at="2019-08-27T10:53:26 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dev.royalalliances.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="sendFeederUsername(java.lang.String)[pri:1, instance:com.royalalliances.mailQueue@1dfe2924]" name="sendFeederUsername" duration-ms="1175" started-at="2019-08-27T10:53:26 CDT" finished-at="2019-08-27T10:53:27 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewCustomer2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendFeederUsername -->
+        <test-method status="PASS" signature="sendFeederPassword(java.lang.String)[pri:2, instance:com.royalalliances.mailQueue@1dfe2924]" name="sendFeederPassword" duration-ms="1171" started-at="2019-08-27T10:53:27 CDT" finished-at="2019-08-27T10:53:28 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Royal1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendFeederPassword -->
+        <test-method status="PASS" signature="clickSignIn()[pri:3, instance:com.royalalliances.mailQueue@1dfe2924]" name="clickSignIn" duration-ms="1983" started-at="2019-08-27T10:53:28 CDT" finished-at="2019-08-27T10:53:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method status="PASS" signature="verifyDashboard()[pri:4, instance:com.royalalliances.mailQueue@1dfe2924]" name="verifyDashboard" duration-ms="3012" started-at="2019-08-27T10:53:30 CDT" finished-at="2019-08-27T10:53:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboard -->
+        <test-method status="PASS" signature="selectRA221()[pri:5, instance:com.royalalliances.mailQueue@1dfe2924]" name="selectRA221" duration-ms="8261" started-at="2019-08-27T10:53:33 CDT" finished-at="2019-08-27T10:53:42 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRA221 -->
+        <test-method status="PASS" signature="navigateToMailQueue(java.lang.String)[pri:6, instance:com.royalalliances.mailQueue@1dfe2924]" name="navigateToMailQueue" duration-ms="4876" started-at="2019-08-27T10:53:42 CDT" finished-at="2019-08-27T10:53:47 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dev.royalalliances.com/mailqueue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMailQueue -->
+        <test-method status="PASS" signature="totalLinksInRAHomePage()[pri:7, instance:com.royalalliances.mailQueue@1dfe2924]" name="totalLinksInRAHomePage" duration-ms="13840" started-at="2019-08-27T10:53:47 CDT" finished-at="2019-08-27T10:54:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalLinksInRAHomePage -->
+        <test-method status="PASS" signature="uploadFCLetterOnly()[pri:8, instance:com.royalalliances.mailQueue@1dfe2924]" name="uploadFCLetterOnly" duration-ms="64370" started-at="2019-08-27T10:54:00 CDT" finished-at="2019-08-27T10:55:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFCLetterOnly -->
+        <test-method status="PASS" signature="shipFile()[pri:9, instance:com.royalalliances.mailQueue@1dfe2924]" name="shipFile" duration-ms="35535" started-at="2019-08-27T10:55:05 CDT" finished-at="2019-08-27T10:55:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipFile -->
+        <test-method status="PASS" signature="validateFileIsScheduled()[pri:10, instance:com.royalalliances.mailQueue@1dfe2924]" name="validateFileIsScheduled" duration-ms="2172" started-at="2019-08-27T10:55:40 CDT" finished-at="2019-08-27T10:55:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFileIsScheduled -->
+        <test-method status="PASS" signature="logOut()[pri:11, instance:com.royalalliances.mailQueue@1dfe2924]" name="logOut" duration-ms="3038" started-at="2019-08-27T10:55:43 CDT" finished-at="2019-08-27T10:55:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="sendHubUsername(java.lang.String)[pri:12, instance:com.royalalliances.mailQueue@1dfe2924]" name="sendHubUsername" duration-ms="1108" started-at="2019-08-27T10:55:46 CDT" finished-at="2019-08-27T10:55:47 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendHubUsername -->
+        <test-method status="PASS" signature="sendHubPassword(java.lang.String)[pri:13, instance:com.royalalliances.mailQueue@1dfe2924]" name="sendHubPassword" duration-ms="1702" started-at="2019-08-27T10:55:47 CDT" finished-at="2019-08-27T10:55:48 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Royal1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendHubPassword -->
+      </class> <!-- com.royalalliances.mailQueue -->
+    </test> <!-- User Credentials -->
+  </suite> <!-- User Credetials Parameterization -->
+</testng-results>

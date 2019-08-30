@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-User_Credetials_Parameterization">
+              <span class="suite-name border-passed">User Credetials Parameterization</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-User_Credetials_Parameterization">
+                    <span>C:\Users\Sujan\eclipse-workspace2\RoyalAlliancesProject\config\testNGUserCredentials.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-User_Credetials_Parameterization">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-User_Credetials_Parameterization">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-User_Credetials_Parameterization">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-User_Credetials_Parameterization">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-User_Credetials_Parameterization">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-User_Credetials_Parameterization">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-User_Credetials_Parameterization" class="hide-methods passed suite-User_Credetials_Parameterization"> (hide)</a> <!-- hide-methods passed suite-User_Credetials_Parameterization -->
+                      <a href="#" panel-name="suite-User_Credetials_Parameterization" class="show-methods passed suite-User_Credetials_Parameterization"> (show)</a> <!-- show-methods passed suite-User_Credetials_Parameterization -->
+                    </span>
+                    <div class="method-list-content passed suite-User_Credetials_Parameterization">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="clickSignIn">clickSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="logOut">logOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="navigateToMailQueue(https://dev.royalalliances.com/mailqueue)">navigateToMailQueue(https://dev.royalalliances.com/mailqueue)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="selectRA221">selectRA221</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="sendFeederPassword(Royal1)">sendFeederPassword(Royal1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="sendFeederUsername(NewCustomer2)">sendFeederUsername(NewCustomer2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="sendHubPassword(Royal1)">sendHubPassword(Royal1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="sendHubUsername(Test2)">sendHubUsername(Test2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="shipFile">shipFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="totalLinksInRAHomePage">totalLinksInRAHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="uploadFCLetterOnly">uploadFCLetterOnly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="validateFileIsScheduled">validateFileIsScheduled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-User_Credetials_Parameterization" title="com.royalalliances.mailQueue" hash-for-method="verifyDashboard">verifyDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-User_Credetials_Parameterization -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-User_Credetials_Parameterization" class="panel User_Credetials_Parameterization">
+          <div class="suite-User_Credetials_Parameterization-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.royalalliances.mailQueue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSignIn">
+                  </a> <!-- clickSignIn -->
+                  <span class="method-name">clickSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOut">
+                  </a> <!-- logOut -->
+                  <span class="method-name">logOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToMailQueue(https://dev.royalalliances.com/mailqueue)">
+                  </a> <!-- navigateToMailQueue(https://dev.royalalliances.com/mailqueue) -->
+                  <span class="method-name">navigateToMailQueue</span>
+                  <span class="parameters">(https://dev.royalalliances.com/mailqueue)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRA221">
+                  </a> <!-- selectRA221 -->
+                  <span class="method-name">selectRA221</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendFeederPassword(Royal1)">
+                  </a> <!-- sendFeederPassword(Royal1) -->
+                  <span class="method-name">sendFeederPassword</span>
+                  <span class="parameters">(Royal1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendFeederUsername(NewCustomer2)">
+                  </a> <!-- sendFeederUsername(NewCustomer2) -->
+                  <span class="method-name">sendFeederUsername</span>
+                  <span class="parameters">(NewCustomer2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendHubPassword(Royal1)">
+                  </a> <!-- sendHubPassword(Royal1) -->
+                  <span class="method-name">sendHubPassword</span>
+                  <span class="parameters">(Royal1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendHubUsername(Test2)">
+                  </a> <!-- sendHubUsername(Test2) -->
+                  <span class="method-name">sendHubUsername</span>
+                  <span class="parameters">(Test2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shipFile">
+                  </a> <!-- shipFile -->
+                  <span class="method-name">shipFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalLinksInRAHomePage">
+                  </a> <!-- totalLinksInRAHomePage -->
+                  <span class="method-name">totalLinksInRAHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadFCLetterOnly">
+                  </a> <!-- uploadFCLetterOnly -->
+                  <span class="method-name">uploadFCLetterOnly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFileIsScheduled">
+                  </a> <!-- validateFileIsScheduled -->
+                  <span class="method-name">validateFileIsScheduled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashboard">
+                  </a> <!-- verifyDashboard -->
+                  <span class="method-name">verifyDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-User_Credetials_Parameterization-class-passed -->
+        </div> <!-- panel User_Credetials_Parameterization -->
+        <div panel-name="test-xml-User_Credetials_Parameterization" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sujan\eclipse-workspace2\RoyalAlliancesProject\config\testNGUserCredentials.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;User Credetials Parameterization&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;User Credentials&quot;&gt;
+    &lt;parameter name=&quot;MailQueueURL&quot; value=&quot;https://dev.royalalliances.com/mailqueue&quot;/&gt;
+    &lt;parameter name=&quot;feederUserName&quot; value=&quot;NewCustomer2&quot;/&gt;
+    &lt;parameter name=&quot;feederPassword&quot; value=&quot;Royal1&quot;/&gt;
+    &lt;parameter name=&quot;hubUserName&quot; value=&quot;Test2&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://dev.royalalliances.com/&quot;/&gt;
+    &lt;parameter name=&quot;hubPassword&quot; value=&quot;Royal1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.royalalliances.mailQueue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- User Credentials --&gt;
+&lt;/suite&gt; &lt;!-- User Credetials Parameterization --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-User_Credetials_Parameterization" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for User Credetials Parameterization</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">User Credentials (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-User_Credetials_Parameterization" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for User Credetials Parameterization</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-User_Credetials_Parameterization" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for User Credetials Parameterization</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_User_Credetials_Parameterization');
+function tableData_User_Credetials_Parameterization() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'uploadFCLetterOnly')
+data.setCell(0, 2, 'com.royalalliances.mailQueue')
+data.setCell(0, 3, 64370);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'shipFile')
+data.setCell(1, 2, 'com.royalalliances.mailQueue')
+data.setCell(1, 3, 35535);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'totalLinksInRAHomePage')
+data.setCell(2, 2, 'com.royalalliances.mailQueue')
+data.setCell(2, 3, 13840);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectRA221')
+data.setCell(3, 2, 'com.royalalliances.mailQueue')
+data.setCell(3, 3, 8261);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigateToMailQueue')
+data.setCell(4, 2, 'com.royalalliances.mailQueue')
+data.setCell(4, 3, 4876);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logOut')
+data.setCell(5, 2, 'com.royalalliances.mailQueue')
+data.setCell(5, 3, 3038);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyDashboard')
+data.setCell(6, 2, 'com.royalalliances.mailQueue')
+data.setCell(6, 3, 3012);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateFileIsScheduled')
+data.setCell(7, 2, 'com.royalalliances.mailQueue')
+data.setCell(7, 3, 2172);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickSignIn')
+data.setCell(8, 2, 'com.royalalliances.mailQueue')
+data.setCell(8, 3, 1983);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'sendHubPassword')
+data.setCell(9, 2, 'com.royalalliances.mailQueue')
+data.setCell(9, 3, 1702);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'sendFeederUsername')
+data.setCell(10, 2, 'com.royalalliances.mailQueue')
+data.setCell(10, 3, 1175);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sendFeederPassword')
+data.setCell(11, 2, 'com.royalalliances.mailQueue')
+data.setCell(11, 3, 1171);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sendHubUsername')
+data.setCell(12, 2, 'com.royalalliances.mailQueue')
+data.setCell(12, 3, 1108);
+window.suiteTableData['User_Credetials_Parameterization']= { tableData: data, tableDiv: 'times-div-User_Credetials_Parameterization'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-User_Credetials_Parameterization">
+              </div> <!-- times-div-User_Credetials_Parameterization -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-User_Credetials_Parameterization" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for User Credetials Parameterization</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-User_Credetials_Parameterization" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-User_Credetials_Parameterization" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.royalalliances.mailQueue</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">invokeBrowser(https://dev.royalalliances.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">sendFeederUsername(NewCustomer2)</span>
+                <span class="method-start">13432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendFeederPassword(Royal1)</span>
+                <span class="method-start">14610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSignIn</span>
+                <span class="method-start">15781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDashboard</span>
+                <span class="method-start">17768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectRA221</span>
+                <span class="method-start">20781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateToMailQueue(https://dev.royalalliances.com/mailqueue)</span>
+                <span class="method-start">29043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">totalLinksInRAHomePage</span>
+                <span class="method-start">33919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uploadFCLetterOnly</span>
+                <span class="method-start">47759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shipFile</span>
+                <span class="method-start">112133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateFileIsScheduled</span>
+                <span class="method-start">147668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOut</span>
+                <span class="method-start">149840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendHubUsername(Test2)</span>
+                <span class="method-start">152878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendHubPassword(Royal1)</span>
+                <span class="method-start">153986 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
